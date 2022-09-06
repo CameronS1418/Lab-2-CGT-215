@@ -3,10 +3,30 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+	float A;
+	float B;
+	float X = 0.0;
+
+	cout << "Hello, my name is BMO and I'm going to solve the equation: Ax + B = 0, for x..." << endl;
+
+	cout << "Please enter a value for A: ";
+	cin >> A;
+
+	cout << "Please enter a value for B: ";
+	cin >> B;
+
+	cout << "Solving " << A <<"x + " << B << " for x..." << endl;
+
+	X = -B / A;
+
+	cout << "The answer is:" << endl;
+	cout << "x=" << X << endl;
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
